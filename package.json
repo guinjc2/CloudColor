@@ -10,7 +10,7 @@
   "bugs": {
     "url": "https://github.com/guinjc2/CloudColor/issues"
   },
-  "publisher": "Clint Guin",
+  "publisher": "clintguin",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.73.0"

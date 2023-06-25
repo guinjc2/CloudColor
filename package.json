@@ -1,0 +1,38 @@
+{
+  "name": "cloud-color",
+  "displayName": "Cloud Color",
+  "description": "Syntax highlighting for Cloudformation YAML",
+  "icon": "assets/package-icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guinjc2/cloud-color"
+  },
+  "bugs": {
+    "url": "https://github.com/guinjc2/cloud-color/issues"
+  },
+  "publisher": "clintguin",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "cloud-color.injection",
+        "path": "./syntaxes/injection.json",
+        "injectTo": [
+          "source.yaml",
+          "text.html.derivative",
+          "text.html.php"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.json": "json",
+          "meta.embedded.block.php": "php"
+        }
+      }
+    ]
+  }
+}

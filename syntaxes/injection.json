@@ -1,0 +1,105 @@
+{
+  "scopeName": "gutenberg-comment.injection",
+  "injectionSelector": "L:source.yaml",
+  "patterns": [
+    {
+      "include": "#resources"
+    },
+    {
+      "include": "#resource"
+    },
+    {
+      "include": "#allow"
+    },
+    {
+      "include": "#type"
+    },
+    {
+      "include": "#retry"
+    },
+    {
+      "include": "#next"
+    },
+    {
+      "include": "#choices"
+    },
+    {
+      "include": "#Effect"
+    },
+    {
+      "include": "#Statement"
+    },
+    {
+      "include": "#Action"
+    },
+    {
+      "include": "#ManagedPolicyArns"
+    },
+    {
+      "include": "#function"
+    },
+    {
+      "include": "#gutenberg-json"
+    }
+  ],
+  "repository": {
+    "resource": {
+      "match": "Resource",
+      "name": "keyword.other.using"
+    },
+    "resources": {
+      "match": "Resources",
+      "name": "variable"
+    },
+    "allow": {
+      "match": "Allow",
+      "name": "entity.name.function"
+    },
+    "type": {
+      "match": "Type",
+      "name": "entity.name.type"
+    },
+    "retry": {
+      "match": "Retry",
+      "name": "entity.name.function"
+    },
+    "next": {
+      "match": "Next",
+      "name": "entity.name.variable"
+    },
+    "choices": {
+      "match": "Choices",
+      "name": "entity.name.function"
+    },
+    "Effect": {
+      "match": "Effect",
+      "name": "entity.name.type"
+    },
+    "Statement": {
+      "match": "Statement",
+      "name": "entity.name.variable"
+    },
+    "Action": {
+      "match": "Action",
+      "name": "keyword.other.using"
+    },
+    "ManagedPolicyArns": {
+      "match": "ManagedPolicyArns",
+      "name": "entity.name.function"
+    },
+    "function": {
+      "match": "!.* ",
+      "name": "entity.name.function"
+    },
+    "gutenberg-json": {
+      "begin": "\\{",
+      "end": "\\}",
+      "name": "meta.embedded.block.json",
+      "patterns": [
+        {
+          "include": "source.json"
+        }
+      ]
+    }
+  }
+}

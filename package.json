@@ -5,12 +5,12 @@
   "icon": "assets/package-icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/guinjc2/cloud-color"
+    "url": "https://github.com/guinjc2/CloudColor"
   },
   "bugs": {
-    "url": "https://github.com/guinjc2/cloud-color/issues"
+    "url": "https://github.com/guinjc2/CloudColor/issues"
   },
-  "publisher": "clintguin",
+  "publisher": "Clint Guin",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.73.0"

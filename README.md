@@ -1,8 +1,8 @@
-# Gutenberg Comment Highlight
+# CloudColor
 
-This Visual Studio Code extension adds syntax highlighting to WordPress themes supporting Gutenberg blocks. The extension makes the comments more readable, instead of being greyed out like standard HTML comments.
+This Visual Studio Code extension adds syntax highlighting to Cloudformation YAML. The extension makes the YAML more readable, instead of being blue and orange out like standard YAML.
 
-The block name, beginning with `wp:` will show as a variable and any json strings will have basic json syntax highlighting.
+Embedded json hilighting is also applied
 
 ## Before
 

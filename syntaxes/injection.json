@@ -1,5 +1,5 @@
 {
-  "scopeName": "gutenberg-comment.injection",
+  "scopeName": "cloud-color.injection",
   "injectionSelector": "L:source.yaml",
   "patterns": [
     {
